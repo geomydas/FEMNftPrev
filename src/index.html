@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="geomydas" />
+    <meta
+      name="description"
+      content=" Our Equilibrium collection promotes balance and calm."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <style>
+      @font-face {
+        font-display: swap;
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 400;
+        src: url("../fonts/outfit-v11-latin-regular.woff2") format("woff2");
+      }
+      @font-face {
+        font-display: swap;
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 600;
+        src: url("../fonts/outfit-v11-latin-600.woff2") format("woff2");
+      }
+      @font-face {
+        font-display: swap;
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 700;
+        src: url("../fonts/outfit-v11-latin-700.woff2") format("woff2");
+      }
+    </style>
+  </head>
+  <title>Frontend Mentor | NFT preview card component</title>
+  <body
+    class="flex min-h-screen flex-col items-center justify-center bg-blue-900 p-8"
+  >
+    <main class="max-w-xs rounded-2xl bg-blue-800 p-8">
+      <img
+        src="../images/image-equilibrium.jpg"
+        alt=""
+        class="mb-6 aspect-square w-full rounded-lg"
+      />
+      <h1 class="font-outfit mb-4 text-2xl font-semibold text-white">
+        Equilibrium #3429
+      </h1>
+      <p class="font-outfit text-lavender mb-4 font-extralight">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <ul class="flex items-center justify-between">
+        <li class="font-outfit text-cyan flex items-center gap-4 font-bold">
+          <img src="../images/icon-ethereum.svg" aria-hidden="true" />0.041 ETH
+        </li>
+        <li class="font-outfit text-lavender flex items-center gap-4 font-light">
+          <img src="../images/icon-clock.svg" alt="" />3 days left
+        </li>
+      </ul>
+      <hr class="border-[1px] border-solid opacity-90 my-4 border-blue-700">
+      <div class="flex items-center gap-2">
+        <img
+          src="../images/image-avatar.png"
+          alt="avatar"
+          class="max-w-10 rounded-full border-2 border-white"
+        />
+        <p class="font-outfit font-normal text-lavender">Creation of <strong class="font-normal text-white">Jules Wyvern</strong></p>
+      </div>
+    </main>
+  </body>
+</html>
